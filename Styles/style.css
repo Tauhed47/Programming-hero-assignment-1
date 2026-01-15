@@ -57,7 +57,170 @@ body {
 }
 
 
-.banner-container{
+
+
+#banner{
   background-image: url(../B13-A01-Knowledge-Vault/assets/hero-bg.png);
-  max-width: 1600px;
+  max-width: 100%;
+  height: 674px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+#banner .banner-container{
+  text-align: center;
+
+}
+
+#banner .banner-container .banner-head{
+  max-width: 229px;
+  /* border: 1px solid red; */
+  border-radius: 1000px;
+  background-color: #FFFFFF;
+  padding: 8px 12px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+#banner .banner-container .banner-head .circle-bar{
+  background-color: ;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  
+  
+}
+
+#banner .banner-container .banner-head .circle-bar .circle{
+  text-align: center;
+}
+
+#banner .banner-container .banner-head .circle-bar .circle .circle1{
+  /* border: 1px solid black; */
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #46916533;
+}
+
+#banner .banner-container .banner-head .circle-bar .circle .circle2{
+  /* border: 1px solid black; */
+  width: 12px;
+  height: 12px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #46916566;
+
+}
+
+#banner .banner-container .banner-head .circle-bar .circle .circle3{
+  /* border: 1px solid black; */
+  width: 6px;
+  height: 6px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: #469165;
+}
+
+#banner .banner-container .banner-head .circle-bar .circle-bar-para p{
+  font-size: 16px;
+  font-weight: 500;
+  color: #469165;
+}
+
+#banner .banner-container .banner-header{
+  max-width: 770px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+#banner .banner-container .banner-header .header1 h1{
+  font-size: 72px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+#banner .banner-container .banner-header .header2 h1{
+  font-size: 72px;
+  font-weight: 700;
+  color: #30B868;
+}
+
+#banner .banner-container .banner-para{
+  max-width: 1360px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  /* line-break: auto; */
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 400px;
+  color: #FFFFFF;
+  
+}
+
+#banner .banner-container .banner-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 465px;
+  height: 52px;
+  margin: 0 auto;
+  gap: 16px;
+
+}
+
+#banner .banner-container .banner-btn .btn1{
+  display: flex;
+  gap: 10px;
+  max-width: 251px;
+  height: 52px;
+  border-radius: 4px;
+  border: none;
+  background-color: #469165;
+  padding: 16px;
+  cursor: pointer;
+}
+
+#banner .banner-container .banner-btn .btn1 .btn1-para{
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+#banner .banner-container .banner-btn .btn1 .btn1-pic{
+  width: 20px;
+  /* height: 20px; */
+}
+
+#banner .banner-container .banner-btn .btn2{
+  display: flex;
+  gap: 10px;
+  max-width: 251px;
+  height: 52px;
+  border-radius: 4px;
+  border: none;
+  background: transparent;;
+  padding: 16px 12px;
+  border: 3px solid #FFFFFF;
+  cursor: pointer;
+}
+
+#banner .banner-container .banner-btn .btn2 .btn2-para{
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
 }
